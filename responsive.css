@@ -23,8 +23,8 @@
         top: 10px;
         gap: 0;
         flex-direction: column;
-        background-color: rgb(75, 75, 165);;
-        width: 15%;
+        background-color: rgb(75, 75, 165);
+        width: 20%;
         text-align: center;
         transition: 0.3s;
     }
