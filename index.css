@@ -8,11 +8,6 @@ body {
     margin: 0;
 }
 
-#wrapper {
-    max-width: 1280;
-    margin: 0 auto;
-}
-
 .navbar {
     position: fixed;
     top: 0;
@@ -20,7 +15,6 @@ body {
     right: 0;
     background: rgb(75, 75, 165);
     z-index: 1;
-   
 }
 
 .menu {
@@ -44,6 +38,21 @@ body {
     border-bottom: 3px solid rgb(33, 221, 221);
     transition: 1s;
 
+}
+
+.hamburguer {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-top: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
 }
 
 .whiteSec {
