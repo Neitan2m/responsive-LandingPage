@@ -1,21 +1,46 @@
 @media (max-width:1000px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: content-box;
+
+    .hamburguer {
+        display: block;
     }
 
-    body {
-        margin: 0;
+    .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
     }
 
+    .hamburguer.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
 
-    .navbar {
-        position: relative;
+    .hamburguer.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
     }
 
     .menu {
-        display: none;
+        position: fixed;
+        display: flex;
+        left: -100%;
+        top: 10px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgb(75, 75, 165);;
+        width: 15%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .menu.active{
+        left:0;
+    }
+
+    .bar {
+        justify-content: left;
+        margin-top: 5px;
+    }
+   
+
+    .menu a{
+        margin: 16px 0;
     }
 
     .whiteSec {
