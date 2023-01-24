@@ -21,15 +21,6 @@ body {
     background: rgb(75, 75, 165);
     z-index: 1;
    
-   
-   
-   /* flex-flow: row wrap;
-    height: 60px;
-    background: rgb(75, 75, 165);
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    opacity: 80%;*/
 }
 
 .menu {
@@ -110,14 +101,17 @@ body {
 
 .information {
     float: center;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
     width: 70%;
     height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+   
 }
 
 .information p {
-    margin-top: 15px;
+    padding-top: 15px;
 }
 
 .blueSec {
@@ -130,10 +124,12 @@ body {
 
 #tragetoria {
     float: center;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
     width: 70%;
     height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #tragetoria p {
@@ -182,11 +178,26 @@ body {
 .upline1 {
     text-align: left;
     justify-content: left;
+    padding-top: 20px;
 }
 
 .upline2 {
     text-align: right;
     justify-content: right;
+    padding-top: 25px;
+}
+
+#time1 {
+    max-width: 60%;
+}
+
+#time2 {
+    max-width: 50%;
+}
+
+#time3 {
+    max-width: 18%;
+    padding-top: 20px;
 }
 
 #video {
@@ -195,7 +206,6 @@ body {
     padding-top: 20px;
 }
 
-
 #videoBox {
     width: 50%;
 }
@@ -203,7 +213,6 @@ body {
 
 #contato {
     height: 200px;
-    /*background: rgb(75, 75, 165);*/
     background: white;
     width: 100%;
     justify-content: center;
@@ -432,4 +441,3 @@ body {
         transform: translateX(0);
     }
 }
-
